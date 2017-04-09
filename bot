@@ -1,0 +1,18 @@
+#!/usr/bin/php
+
+<?php
+/**
+ * Created by PhpStorm.
+ * User: amadi
+ * Date: 09.04.17
+ * Time: 13:35
+ */
+define('APP_PATH', __DIR__);
+define('INCLUDE_PATH', APP_PATH . DIRECTORY_SEPARATOR . 'inc');
+require_once(INCLUDE_PATH . DIRECTORY_SEPARATOR . 'cli.php');
+require_once(INCLUDE_PATH . DIRECTORY_SEPARATOR . 'datastore.php');
+require_once(INCLUDE_PATH . DIRECTORY_SEPARATOR . 'image.php');
+require_once(INCLUDE_PATH . DIRECTORY_SEPARATOR . 'GoogleAPI.php');
+require_once(APP_PATH . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php');
+
+BotCLI::parse_argv($argv);

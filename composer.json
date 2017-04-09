@@ -1,0 +1,12 @@
+{
+    "name": "amadi/uploader-bot",
+    "require": {
+        "google/apiclient": "^2.1"
+    },
+    "authors": [
+        {
+            "name": "amadi",
+            "email": "dimanfet@gmail.com"
+        }
+    ]
+}
