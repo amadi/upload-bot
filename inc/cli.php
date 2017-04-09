@@ -117,7 +117,7 @@ class BotCLI
     }
 
     /**
-     * @common_help Output current status in format %queue%:%number_of_images%
+     * @common_help Output current tasks stats
      * @param $count
      */
     private static function cmd_status($count = null)
